@@ -27,3 +27,23 @@ body{
 
 
 }
+
+.new_15{
+    background-color: #FFBF0F;
+    border-radius: 10px;
+   
+}
+
+.couple_20{
+    background-color: #F78C9C;
+    border-radius: 10px;
+    
+    
+
+}
+
+.cupon_button{
+    border: 1px solid #1DD100;
+    border-radius: 10px;
+    color: #1DD100;
+}
