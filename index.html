@@ -165,7 +165,7 @@
     <!-- ticket Section  -->
 
 
-    <section class="ticket border-t-2 border-green-500 rounded-3xl  mt-14 bg-zinc-50">
+    <section class="ticket border-t-2 border-green-500 rounded-3xl h-full mt-14 bg-zinc-100">
 
         <div class="container mx-auto xl:px-32 md:px-10 sm:px-8 p-5 border-zinc-50 ">
 
@@ -173,64 +173,301 @@
 
 
             <h1 class="text-center text-4xl font-bold">P.H Paribahan</h1>
-            <p class="text-center text-sm mt-5">Yes, you can run unit tests and view the results directly within the app. The integrated testing features
+            <p class="text-center text-sm mt-5">Yes, you can run unit tests and view the results directly within the
+                app. The integrated testing features
                 allow for a streamlined .</p>
 
-                                              <!-- main ticket -->
+            <!-- main ticket -->
 
-                <div class="flex flex-col md:flex-row mt-10 bg-white rounded-2xl p-3 md:p-0 ">
-                    <div class="md:w-4/6 p-5">
-                        <div class="flex justify-between items-center ">
-                            <div class="flex items-center "><img class="h-5" src="./images/bus-logo.png" alt="">
-                                <div class="ml-2">
-                                    <h1 class="text-sm font-bold">Greenline Paribahan</h1> <p class="text-xs">Coach-009-WEB ! AC_Business</p></div>
-                                </div> 
-                            <div class="flex bg-green-300 rounded-lg items-center p-2"><img class="h-5" src="./images/seat-green.png" alt=""><p class="text-xs font-semibold">40 Seats left</p></div>
+            <div class="flex flex-col md:flex-row mt-10 bg-white rounded-2xl p-3 md:p-0 ">
+                <div class="md:w-4/6 md:p-7 xl:p-7">
+                    <div class="flex justify-between items-center ">
+                        <div class="flex items-center "><img class="h-5 md:h-7 xl:h-10" src="./images/bus-logo.png"
+                                alt="">
+                            <div class="ml-2">
+                                <h1 class="text-sm font-bold md:text-base xl:text-xl">Greenline Paribahan</h1>
+                                <p class="text-xs xl:text-sm">Coach-009-WEB ! AC_Business</p>
+                            </div>
                         </div>
-                        <div class="p-5 bg-zinc-50 rounded-2xl mt-10">
-
-                            <div class="flex justify-between border-dashed border-b border-x-neutral-300 pb-2">
-                                <div><p class="text-sm font-semibold text-slate-400">Route</p></div>
-                                <div><p class="text-sm font-semibold text-slate-400">Dhaka - Sylhet</p></div>
-                            </div>
-                            <div class="flex justify-between border-dashed border-b border-x-neutral-300 py-2">
-                                <div><p class="text-sm font-semibold text-slate-400">Departure Time</p></div>
-                                <div><p class="text-sm font-semibold text-slate-400">9:00 PM</p></div>
-                            </div>
-                            <div class="flex justify-between py-5 gap-2">
-                                <div><button class=" bg-zinc-200 rounded-lg w-30 h-10  text-xs font-semibold p-2">Boarding Point - Laxmipur</button></div>
-                                <div><button class=" bg-zinc-200 rounded-lg w-30 h-10  text-xs font-semibold p-2" >Dropping Point - Bogura</button></div>
-                                <div><button class=" bg-zinc-200 rounded-lg w-30 h-10  text-xs font-semibold p-2" >Est. Time - 11 Hour</button></div>
-                            </div>
-
-
-
+                        <div class="flex bg-green-300 rounded-lg items-center p-2 xl:px-4"><img class="h-5"
+                                src="./images/seat-green.png" alt="">
+                            <p class="text-xs font-semibold xl:ml-2">40 Seats left</p>
                         </div>
                     </div>
-                    <div class="hidden md:flex "><img class="md:h-80" src="./images/info-devider.png" alt=""></div>
-                    <div class="flex flex-col items-center justify-center mt-2   lg:ml-10">
-                        <img src="./images/fare.png" alt="">
-                        <h1 class="font-bold text-2xl md:text-3xl">550 Taka</h1>
-                        <p class="font-bold text-slate-400">Per Seat</p>
+                    <div class="p-5 bg-zinc-50 rounded-2xl mt-10">
+
+                        <div class="flex justify-between border-dashed border-b border-x-neutral-300 pb-2">
+                            <div>
+                                <p class="text-sm font-semibold text-slate-400">Route</p>
+                            </div>
+                            <div>
+                                <p class="text-sm font-semibold text-slate-400">Dhaka - Sylhet</p>
+                            </div>
+                        </div>
+                        <div class="flex justify-between border-dashed border-b border-x-neutral-300 py-2">
+                            <div>
+                                <p class="text-sm font-semibold text-slate-400">Departure Time</p>
+                            </div>
+                            <div>
+                                <p class="text-sm font-semibold text-slate-400">9:00 PM</p>
+                            </div>
+                        </div>
+                        <div class="flex justify-between py-5 gap-2">
+                            <div><button class=" bg-zinc-200 rounded-lg w-30 h-10  text-xs font-semibold p-2">Boarding
+                                    Point - Laxmipur</button></div>
+                            <div><button class=" bg-zinc-200 rounded-lg w-30 h-10  text-xs font-semibold p-2">Dropping
+                                    Point - Bogura</button></div>
+                            <div><button class=" bg-zinc-200 rounded-lg w-30 h-10  text-xs font-semibold p-2">Est. Time
+                                    - 11 Hour</button></div>
+                        </div>
+
+
+
                     </div>
-
-
-
+                </div>
+                <div class="hidden md:flex "><img class="md:h-80" src="./images/info-devider.png" alt=""></div>
+                <div class="flex flex-col items-center justify-center mt-2   lg:ml-10">
+                    <img src="./images/fare.png" alt="">
+                    <h1 class="font-bold text-2xl md:text-3xl">550 Taka</h1>
+                    <p class="font-bold text-slate-400">Per Seat</p>
                 </div>
 
 
 
+            </div>
+
+
+            <!-- all sit -->
+
+            <div class="bg-white  mt-10 p-5 rounded-xl">
 
 
 
-    
+                <div class="">
+
+                    <h1 class="font-bold border-dashed border-b border-y-neutral-400 pb-2">Select Your Seat</h1>
+
+                    <div class="flex justify-between  border-dashed border-b border-y-neutral-400 p-2">
+                        <div class="flex items-center justify-center"><img class="h-5" src="./images/seat-gray.png"
+                                alt="">
+                            <p class="text-sm ml-2">Available</p>
+                        </div>
+                        <div class="flex items-center justify-center"> <img class="h-5"
+                                src="./images/seat-green-filled.png" alt="">
+                            <p class="text-sm ml-2">Selected</p>
+                        </div>
+                    </div>
+
+                    <div class="flex float-right mt-5 mb-5"><img class="px-5 py-3 bg-gray-300 rounded-lg ml-2"
+                            src="./images/stear.png" alt=""></div>
+
+
+                    <div class="mt-20">
+
+                        <!-- A line sits -->
+
+                        <div class=" flex justify-between  w-full mt-5">
+                            <div class="flex items-center ">
+ 
+                                <p>A</p>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">A1</button>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">A2</button>
+                            </div>
+
+                            <div>
+
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">A3</button>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">A4</button>
+                            </div>
+                        </div>
+
+                        <!-- B line sits -->
+
+                        <div class=" flex justify-between  w-full mt-5">
+                            <div class="flex items-center ">
+ 
+                                <p>B</p>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">B1</button>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">B2</button>
+                            </div>
+
+                            <div>
+
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">B3</button>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">B4</button>
+                            </div>
+                        </div>
+
+
+                        <!-- C line sits -->
+
+                        <div class=" flex justify-between  w-full mt-5">
+                            <div class="flex items-center ">
+ 
+                                <p>C</p>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">C1</button>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">C2</button>
+                            </div>
+
+                            <div>
+
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">C3</button>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">C4</button>
+                            </div>
+                        </div>
+
+
+                        <!-- D line -->
+
+                        <div class=" flex justify-between  w-full mt-5">
+                            <div class="flex items-center ">
+ 
+                                <p>D</p>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">D1</button>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">D2</button>
+                            </div>
+
+                            <div>
+
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">D3</button>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">D4</button>
+                            </div>
+                        </div>
+
+                        <!-- E line -->
+
+                        <div class=" flex justify-between  w-full mt-5">
+                            <div class="flex items-center ">
+ 
+                                <p>E</p>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">F1</button>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">F2</button>
+                            </div>
+
+                            <div>
+
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">F3</button>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">F4</button>
+                            </div>
+                        </div>
+
+                        <!-- F line -->
+
+                        <div class=" flex justify-between  w-full mt-5">
+                            <div class="flex items-center ">
+ 
+                                <p>F</p>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">F1</button>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">F2</button>
+                            </div>
+
+                            <div>
+
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">F3</button>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">F4</button>
+                            </div>
+                        </div>
+
+
+                        <!-- G line -->
+
+                        <div class=" flex justify-between  w-full mt-5">
+                            <div class="flex items-center ">
+ 
+                                <p>G</p>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">G1</button>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">G2</button>
+                            </div>
+
+                            <div>
+
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">G3</button>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">G4</button>
+                            </div>
+                        </div>
+
+
+                        <!-- H line -->
+
+                        <div class=" flex justify-between  w-full mt-5">
+                            <div class="flex items-center ">
+ 
+                                <p>H</p>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">H1</button>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">H2</button>
+                            </div>
+
+                            <div>
+
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">H3</button>
+                                <button class="px-5 py-3 bg-gray-300 rounded-lg ml-2">H4</button>
+                            </div>
+                        </div>
+
+
+
+                        <!-- I line -->
+
+                        <div class=" flex justify-between  w-full mt-5">
+                            <div class="flex items-center ">
+ 
+                                <p>I</p>
+                                <button class="px-6 py-3 bg-gray-300 rounded-lg ml-4">I1</button>
+                                <button class="px-6 py-3 bg-gray-300 rounded-lg ml-2">I2</button>
+                            </div>
+
+                            <div>
+
+                                <button class="px-6 py-3 bg-gray-300 rounded-lg ml-2">I3</button>
+                                <button class="px-6 py-3 bg-gray-300 rounded-lg ml-2">I4</button>
+                            </div>
+                        </div>
+
+
+                        <!-- J line -->
+
+                        <div class=" flex justify-between  w-full mt-5">
+                            <div class="flex items-center ">
+ 
+                                <p>J</p>
+                                <button class="px-6 py-3 bg-gray-300 rounded-lg ml-4">J1</button>
+                                <button class="px-6 py-3 bg-gray-300 rounded-lg ml-2">J2</button>
+                            </div>
+
+                            <div>
+
+                                <button class="px-6 py-3 bg-gray-300 rounded-lg ml-2">J3</button>
+                                <button class="px-6 py-3 bg-gray-300 rounded-lg ml-2">J4</button>
+                            </div>
+                        </div>
+
+
+
+
+                    </div>
+
+
+
+
+                </div>
+                <div></div>
+
+
+            </div>
+
+
+
+
+
+
+
 
         </div>
 
 
 
 
-    
+
 
 
 
